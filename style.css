@@ -35,6 +35,8 @@ body{
 
 .titulo{
     background: linear-gradient(40deg, #f74c06, #f9bc2c);
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
 }
 
 .titulo h2{
@@ -63,12 +65,18 @@ body{
 /*---Info---*/
 .info h3{
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 0px;
 }
 
-.info p{
+.info h4{
     font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.info p{
+    font-size: 1.1rem;
 }
 
 .info input{
@@ -103,4 +111,25 @@ body{
     cursor: pointer;
     margin-top: 10px;
     background: linear-gradient(to right, #f74c06, #f9bc2c);
+}
+
+/*---Icones---*/
+.icone{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icone i{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    cursor: pointer;
 }
