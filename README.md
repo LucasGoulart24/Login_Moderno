@@ -3,3 +3,4 @@
 - Data: 18/08/2025
 
 ## Captura
+<img src="./Captura.png">
