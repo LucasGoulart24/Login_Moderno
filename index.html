@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
     <title>Login Moderno</title>
 </head>
@@ -15,18 +16,25 @@
         </div>
         <div class="info">
             <h3>Cadastro</h3>
-            <p>Pode entrar com sua conta</p>
+            <div class="redes">
+                <i class='bx bxl-google-plus'></i>
+                <i class='bx bxl-facebook' ></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-twitter' ></i>
+            </div>
+             <p>Ou use seu email e senha</p>
             <div class="inputs">
                 <label>Email:</label>
-                <input type="email" placeholder="Digite seu email">
+                <input id="email" type="email" placeholder="Digite seu email">
             </div>
              <div class="inputs">
                 <label>Senha:</label>
-                <input type="password" placeholder="Digite sua senha">
+                <input id="password" type="password" placeholder="Digite sua senha">
             </div>
             <a href="#">Esqueceu a senha?</a>
-            <button>Cadastre-se</button>
+            <button onclick="Cadastro()">Cadastre-se</button>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
